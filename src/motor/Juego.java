@@ -235,9 +235,10 @@ public class Juego {
                 }
             }
         }
-        if ((this.tablero.getCantidadCeldas() - this.tablero.getCantidadMinas()) == this.descubiertas) {
-            this.estado = EstadoJuego.GANADO;
-        }
+        // Condición de victoria
+        if (this.descubiertas == (this.tablero.getAncho() * this.tablero.getLargo()) - this.bombas) {
+			this.estado = EstadoJuego.GANADO;
+		}
         return;
     }
 

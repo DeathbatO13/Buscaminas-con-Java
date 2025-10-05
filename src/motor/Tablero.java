@@ -106,12 +106,12 @@ public class Tablero {
                 if(!celda.tieneBomba()) {
                     celda.setTieneBomba(true);
                 }
-                // If already has bomb, do nothing
+                //Si ya tiene bomba, no hacer nada
             } else {
                 if(celda.tieneBomba()) {
                     celda.setTieneBomba(false);
                 }
-                // If already does not have bomb, do nothing
+                //Si no tiene bomba, no hacer nada
             }
         }
     }

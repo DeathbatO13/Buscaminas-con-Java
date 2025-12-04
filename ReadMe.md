@@ -59,7 +59,7 @@ Permite seleccionar distintos niveles de dificultad, activar un **modo debug** p
 ![Juego estándar](images/Estandar.png)
 
 ### 🧨 Modo debug
-![Modo debug](images/ModoDebug.png)
+![Modo debug](images/ModoDebug1.png)
 
 ### 🔧 Configuración de nueva partida
 ![Configuración de juego](images/JuegoNuevo.png)
